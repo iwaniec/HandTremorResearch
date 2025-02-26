@@ -1,0 +1,145 @@
+PrintWriter output;
+int step;
+
+void setup() {
+  // Create a new file in the sketch directory
+  output = createWriter("positions.txt"); 
+  size(800,600);
+  background (150,175,100); // select the color of the backgroun
+  step = 1;
+}
+
+
+void draw() {
+  shapes_and_instructions();
+  circle(mouseX, mouseY, 5); // draw a point at the current mouse position
+  output.println(mouseX + "\t" + mouseY); // Write the coordinate to the file
+  
+  
+}
+
+void shapes_and_instructions() {
+  
+  
+  switch (step) {
+    case 1:
+      textAlign(CENTER);
+      textSize(40);
+      text("Move mouse to circle", width/2, 100);
+      text("and click ", width/2, 150);
+      circle(20, 25, 50);
+      break;
+      
+    case 2:
+      rect(20, 20, width-40, 10);
+      circle(width-40, 25, 50);
+      break;
+      
+    case 3:
+     rect(20, 20, width-40, 10);
+     rect(755, 20, 10, 545);
+     circle(width-40, 25, 50);
+     circle(760, 550, 50);
+     break;
+
+    case 4:
+     rect(20, 20, width-40, 10);
+     rect(755, 20, 10, 545);
+     circle(width-40, 25, 50);
+     rect(30, 545, width-50, 10);
+     circle(760, 550, 50);
+     circle(50, 550, 50);
+     break;
+     
+    case 5:
+      rect(30, 20, width-50, 10);
+      rect(755, 20, 10, 545);
+      circle(width-40, 25, 50);
+      rect(30, 545, width-50, 10);
+      circle(760, 550, 50);
+      rect(45, 20, 10, 545);
+      circle(50, 550, 50);
+      circle(49, 25, 50);
+      break;
+    
+    case 6:
+      triangle(50, 100, 100, 100, 75, 50);
+      break;
+     
+    case 7:
+      line (75, 75, 710, 530);
+      triangle (50, 100, 100, 100, 75, 50);
+      triangle (690, 550, 740, 550, 715, 500);
+      break;
+      
+    case 8:
+      line (75, 75, 710, 530);
+      line (710, 530, 75, 530);
+      triangle (50, 100, 100, 100, 75, 50);
+      triangle (690, 550, 740, 550, 715, 500);
+      triangle (50, 550, 100, 550, 75, 500);
+      break;
+    
+    case 9:
+      line (75, 75, 710, 530);
+      line (710, 530, 75, 530);
+      line (75, 530, 710, 75);
+      triangle (50, 100, 100, 100, 75, 50);
+      triangle (690, 550, 740, 550, 715, 500);
+      triangle (50, 550, 100, 550, 75, 500);
+      triangle (690, 100, 740, 100, 715, 50);
+      break;
+      
+    case 10:
+      triangle (690, 100, 740, 100, 715, 50);
+      break;
+      
+    case 11:
+      line (710, 75, 75, 530);
+      triangle (690, 100, 740, 100, 715, 50);
+      triangle (50, 550, 100, 550, 75, 500);
+      break;
+      
+    case 12:
+      line (710, 75, 75, 530);
+      line (75, 530, 710, 530);
+      triangle (690, 100, 740, 100, 715, 50);
+      triangle (50, 550, 100, 550, 75, 500);
+      triangle (690, 550, 740, 550, 715, 500);
+      break;
+    
+    case 13:
+      //line (710, 75, 75, 530);
+      quad (710, 75, 75, 530, 85, 530, 720, 75);
+      //line (75, 530, 710, 530);
+      quad (75, 530, 710, 530, 720, 540, 85, 540);
+      //line (710, 530, 75, 75);
+      quad (710, 530, 75, 75, 95, 95, 730, 550);
+      triangle (690, 100, 740, 100, 715, 50);
+      triangle (50, 550, 100, 550, 75, 500);
+      triangle (690, 550, 740, 550, 715, 500);
+      triangle (50, 100, 100, 100, 75, 50);
+      break;
+      
+    case 14:
+      quad (710, 75, 75, 530, 85, 530, 720, 75);
+      break;
+      
+    case 15:
+      keyPressed();
+  }
+}
+  
+
+void mouseClicked() {
+  output.flush(); // Writes the remaining data to the file
+  output.println("Mouse Click");
+  background (150,175,100); // select the color of the background
+  step++;
+    
+}
+
+void keyPressed() {
+  output.close(); // Finishes the file
+  exit(); // Stops the program
+}
