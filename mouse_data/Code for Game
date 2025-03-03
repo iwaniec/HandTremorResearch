@@ -70,6 +70,7 @@ void shapes_and_instructions() {
       break;
     
     case 6:
+      background (110,180,255);
       textAlign(CENTER);
       textSize(40);
       text("Click the shape for", width/2, 150);
@@ -78,12 +79,14 @@ void shapes_and_instructions() {
       break;
      
     case 7:
+      background (110,180,255);
       quad (75, 75, 67, 85, 702, 540, 710, 530);
       triangle (50, 100, 100, 100, 75, 50);
       triangle (690, 550, 740, 550, 715, 500);
       break;
       
     case 8:
+      background (110,180,255);
       quad (75, 75, 67, 85, 702, 540, 710, 530);
       quad (710, 525, 710, 537, 75, 537, 75, 525);
       triangle (50, 100, 100, 100, 75, 50);
@@ -92,6 +95,7 @@ void shapes_and_instructions() {
       break;
     
     case 9:
+      background (110,180,255);
       quad (75, 75, 67, 85, 702, 540, 710, 530);
       quad (710, 525, 710, 537, 75, 537, 75, 525);
       quad (710, 75, 718, 85, 83, 540, 75, 530);
@@ -102,6 +106,7 @@ void shapes_and_instructions() {
       break;
       
     case 10:
+      background (110,180,255);
       textAlign(CENTER);
       textSize(40);
       text("Great Job!", width/2, 150);
@@ -110,12 +115,14 @@ void shapes_and_instructions() {
       break;
       
     case 11:
+      background (110,180,255);
       quad (710, 75, 718, 85, 83, 540, 75, 530);
       triangle (690, 100, 740, 100, 715, 50);
       triangle (50, 550, 100, 550, 75, 500);
       break;
       
     case 12:
+      background (110,180,255);
       quad (710, 75, 718, 85, 83, 540, 75, 530);
       quad (710, 525, 710, 537, 75, 537, 75, 525);
       triangle (690, 550, 740, 550, 715, 500);
@@ -124,6 +131,7 @@ void shapes_and_instructions() {
       break;
     
     case 13:
+      background (110,180,255);
       quad (75, 75, 67, 85, 702, 540, 710, 530);
       quad (710, 525, 710, 537, 75, 537, 75, 525);
       quad (710, 75, 718, 85, 83, 540, 75, 530);
@@ -134,16 +142,19 @@ void shapes_and_instructions() {
       break;
       
     case 14:
+      background (200,180,200);
       circle (75, 75, 50);
       break;
       
     case 15:
+      background (200,180,200);
       quad (70, 75, 80, 75, 238, 525, 228, 525);
       circle (75, 75, 50);
       circle (238, 525, 50);
       break;
       
     case 16:
+      background (200,180,200);
       quad (70, 75, 80, 75, 238, 525, 228, 525);
       quad (242, 525, 232, 525, 395, 75, 405, 75);
       circle (75, 75, 50);
@@ -152,6 +163,7 @@ void shapes_and_instructions() {
       break;
     
     case 17:
+      background (200,180,200);
       quad (70, 75, 80, 75, 238, 525, 228, 525);
       quad (242, 525, 232, 525, 395, 75, 405, 75);
       quad (400, 75, 410, 75, 562, 525, 552, 525);
@@ -162,6 +174,7 @@ void shapes_and_instructions() {
       break;
       
     case 18:
+      background (200,180,200);
       quad (70, 75, 80, 75, 238, 525, 228, 525);
       quad (242, 525, 232, 525, 395, 75, 405, 75);
       quad (400, 75, 410, 75, 562, 525, 552, 525);
@@ -174,16 +187,19 @@ void shapes_and_instructions() {
       break; 
       
     case 19:
+      background (200,180,200);
       circle (725, 75, 50);
       break;
       
     case 20:
+      background (200,180,200);
       quad (572, 300, 562, 300, 725, 75, 735, 75);
       circle (725, 75, 50);
       circle (562, 300, 50);
       break;
       
     case 21:
+      background (200,180,200);
       quad (572, 300, 562, 300, 725, 75, 735, 75);
       quad (400, 75, 410, 75, 562, 300, 552, 300);
       circle (725, 75, 50);
@@ -192,6 +208,7 @@ void shapes_and_instructions() {
       break;
       
     case 22:
+      background (200,180,200);
       quad (572, 300, 562, 300, 725, 75, 735, 75);
       quad (400, 75, 410, 75, 562, 300, 552, 300);
       quad (242, 300, 232, 300, 395, 75, 405, 75);
@@ -202,6 +219,7 @@ void shapes_and_instructions() {
       break;
       
       case 23:
+      background (200,180,200);
       quad (572, 300, 562, 300, 725, 75, 735, 75);
       quad (400, 75, 410, 75, 562, 300, 552, 300);
       quad (242, 300, 232, 300, 395, 75, 405, 75);
@@ -214,6 +232,7 @@ void shapes_and_instructions() {
       break;   
     
     case 24:
+      background (200,180,200);
       quad (75, 79, 75, 70, 400, 95, 400, 105);
       circle (400, 100, 50);
       circle (75, 75, 50);
@@ -236,6 +255,7 @@ void shapes_and_instructions() {
       break;
     
     case 27:
+      background (105,90,120);
       textAlign(CENTER);
       textSize(40);
       text("Almost done!", width/2, 250);
@@ -243,12 +263,14 @@ void shapes_and_instructions() {
       break; 
       
     case 28:
+      background (105,90,120);
       quad (397, 104, 402, 95, 702, 245, 697, 254);
       circle (400, 100, 50);
       circle (700, 250, 50);
       break; 
       
     case 29:
+      background (105,90,120);
       quad (397, 104, 402, 95, 702, 245, 697, 254);
       quad (698, 245, 701, 254, 101, 454, 98, 445);
       circle (400, 100, 50);
@@ -257,6 +279,7 @@ void shapes_and_instructions() {
       break; 
       
     case 30:
+      background (105,90,120);
       quad (397, 104, 402, 95, 702, 245, 697, 254);
       quad (698, 245, 701, 254, 101, 454, 98, 445);
       quad (98, 454, 101, 445, 401, 545, 398, 554);
@@ -268,16 +291,19 @@ void shapes_and_instructions() {
       
      
     case 31:
+      background (105,90,120);
       circle (400, 550, 50);
       break;
     
     case 32:
+      background (105,90,120);
       quad (98, 454, 101, 445, 401, 545, 398, 554);
       circle (400, 550, 50);
       circle (100, 450, 50);
       break;
     
     case 33:
+      background (105,90,120);
       quad (98, 454, 101, 445, 401, 545, 398, 554);
       quad (698, 245, 701, 254, 101, 454, 98, 445);
       circle (400, 550, 50);
@@ -286,6 +312,7 @@ void shapes_and_instructions() {
       break;
     
     case 34:
+      background (105,90,120);
       quad (98, 454, 101, 445, 401, 545, 398, 554);
       quad (698, 245, 701, 254, 101, 454, 98, 445);
       quad (397, 104, 402, 95, 702, 245, 697, 254);
@@ -296,6 +323,7 @@ void shapes_and_instructions() {
       break;
       
     case 35:
+      background (105,90,120);
       textAlign(CENTER);
       textSize(40);
       text("Great Job!", width/2, 150);
