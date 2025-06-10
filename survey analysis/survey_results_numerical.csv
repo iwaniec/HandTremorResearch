@@ -1,0 +1,55 @@
+Date and time survey started,Input Patient ID below:,Do you consent to participate in this study?,How old are you?,Have you participated in this survey before?,"Do you experience tremors, shaking or involuntary movement in your hands, wrists, or arms?",How long do you spend your time in front of a computer per day on average? - Time,What do you typically use your computer for? - Work,What do you typically use your computer for? - Communication with others,"What do you typically use your computer for? - Recreational (watching videos, playing games, social media, browsing)","What do you typically use your computer for? - Purchasing items (groceries, medication, etc.)",How challenging is it when you are interacting with your computer? - Moving the mouse,How challenging is it when you are interacting with your computer? - Using the keyboard,"Which mouse most closely represents the type of mouse you currently use?
+(If you no longer use a computer, please select the most recent mouse you used.)",Are there specific tasks when using a computer mouse that are particularly challenging for you? - Clicking,Are there specific tasks when using a computer mouse that are particularly challenging for you? - Dragging,Are there specific tasks when using a computer mouse that are particularly challenging for you? - Moving,Are there specific tasks when using a computer mouse that are particularly challenging for you? - Scrolling,"Does using a mouse cause discomfort or fatigue in your hand, wrist, or arm? - Hand","Does using a mouse cause discomfort or fatigue in your hand, wrist, or arm? - Wrist","Does using a mouse cause discomfort or fatigue in your hand, wrist, or arm? - Arm","Does the surface where you use your computer mouse impact how well you can control it?
+(i.e. using a mousepad vs plain table) - Better control",Do you use any assistive technologies to reduce reliance on a computer mouse? - Assistive technology,"If you had to get a new mouse, what factors are important to you? - Comfort","If you had to get a new mouse, what factors are important to you? - Easy to use","If you had to get a new mouse, what factors are important to you? - Responsiveness","If you had to get a new mouse, what factors are important to you? - Design / look of mouse","If you had to get a new mouse, what factors are important to you? - Cost",Can you tell me a little about when the tremors first began? - Age when tremors began,"Have you been given a specific diagnosis related to the tremors? If so, what is it?
+
+(Write 'N/A' if you don't know / have a diagnosis.)",Do the tremors affect one part of your body more than others? - Where in the body are you affected,How do the tremors impact your daily activities? - Performing daily tasks,How do the tremors impact your daily activities? - Using electronic devices,How do the tremors impact your daily activities? - Keeping steady hand while holding items,How do the tremors impact your daily activities? - Communicating with others,How often do you experience tremors? - Tremors,Have you noticed your tremors worsen as time goes on when performing certain tasks? - Tremors worsen with time,"Have you explored physical / occupational therapy, assistive devices, or other solutions to cope with the tremors? - Physical / Occupational Therapy","Have you explored physical / occupational therapy, assistive devices, or other solutions to cope with the tremors? - Assistive devices","Have you explored physical / occupational therapy, assistive devices, or other solutions to cope with the tremors? - Medication","Have you explored physical / occupational therapy, assistive devices, or other solutions to cope with the tremors? - Other",How severely do you experience tremors ? - Severity,Do hand tremors negatively affect your ability to interact with a computer? - Computer use difficulty,Do you limit your interaction with computers as a result of hand tremors? - Computer avoidance,"Do you use any devices to overcome your difficulties with hand tremors in order to use a computer? If yes, explain what device you use."
+Date,participant_ID,participant_consent,participant_age,participant_new,tremor_level,computer_time,computer_work,computer_communication,computer_recreation,computer_purchasing,mouse_difficulty,keyboard_challenge,mouse_type,mouse_challenge_click,mouse_challenge_drag,mouse_challenge_move,mouse_challenge_scroll,mouse_fatigue_hand,mouse_fatigue_wrist,mouse_fatigue_arm,mouse_surface_impact,assistive_devices,mouse_preferences_comfort,mouse_preferences_ease,mouse_preferences_responsive,mouse_preferences_aesthetic,mouse_preferences_cost,tremor_onset_age,diagnosis,tremor_affected_area,tremor_impact_daily_tasks,tremor_impact_electronics,tremor_impact_holding_items,tremor_impact_daily_communication,tremor_freq_occurance,tremor_worsen_over_time,participant_treatments_OT_PT,participant_treatments_assist_dev,participant_treatments_meds,participant_treatments_other,tremor_severity,tremor_impact_computer_use,participant_avoids_computers,participant_devices
+3/26/2025 15:10,PT01,1,29,2,3,5,2,2,1,1,2,1,5,1,4,1,1,2,2,2,1,6,3,3,3,2,3,,,,,,,,,,,,,,,,,
+3/26/2025 15:41,PT02,1,54,2,3,5,2,1,1,1,1,1,1,1,1,1,1,5,5,5,4,6,3,3,3,2,2,,,,,,,,,,,,,,,,,
+3/26/2025 18:11,PT03,1,39,2,2,5,2,2,1,1,1,1,1,1,1,1,1,5,5,5,2,6,3,3,3,3,3,3,No,5,1,1,1,2,2,3,2,2,2,2,2,1,1,no
+3/26/2025 22:26,PT04,1,27,2,3,5,2,2,1,1,1,1,1,1,1,1,1,2,2,2,1,6,1,1,1,1,1,,,,,,,,,,,,,,,,,
+3/26/2025 22:34,PT05,1,30,2,3,5,2,1,1,1,1,1,1,1,2,2,2,4,4,4,1,2,3,3,3,2,2,,,,,,,,,,,,,,,,,
+3/26/2025 22:53,PT06,1,66,2,3,1,1,1,1,1,5,5,1,4,5,4,5,2,2,2,1,3,3,3,3,3,3,,,,,,,,,,,,,,,,,
+3/26/2025 23:11,PT07,1,52,2,3,5,2,2,2,2,2,2,1,2,2,3,2,4,4,4,1,"1,3",3,3,1,1,3,,,,,,,,,,,,,,,,,
+3/27/2025 11:44,PT08,1,32,2,3,5,2,2,1,2,2,2,2,1,1,1,1,5,2,5,1,6,3,3,3,1,3,,,,,,,,,,,,,,,,,
+3/27/2025 12:35,PT10,1,24,2,3,5,2,2,2,1,1,1,5,1,1,1,1,5,5,5,4,3,3,3,3,2,3,,,,,,,,,,,,,,,,,
+3/27/2025 15:45,PT11,1,45,2,3,4,2,1,1,1,1,1,4,1,1,2,1,5,5,5,2,"1,3",3,3,3,2,3,,,,,,,,,,,,,,,,,
+3/27/2025 16:07,PT12,1,24,2,1,5,2,2,2,2,4,4,5,1,1,4,4,1,3,4,1,"1,2,3",3,2,2,1,3,2,N/A,"1,2",3,3,4,5,4,2,2,2,2,2,1,3,5,wrist pad to stabilize my wrists
+3/27/2025 16:37,PT09,1,29,2,3,5,2,1,1,2,1,1,1,1,2,2,1,4,4,4,1,"2,3",3,3,3,3,2,,,,,,,,,,,,,,,,,
+3/27/2025 16:16,PT13,1,27,2,3,5,2,2,1,2,2,2,1,2,2,2,2,5,5,5,1,2,3,3,3,3,3,,,,,,,,,,,,,,,,,
+3/27/2025 20:35,PT14,1,62,2,2,5,2,1,1,1,2,1,2,1,1,1,2,4,4,4,1,6,3,3,3,1,2,6,no,2,2,2,2,1,3,2,2,2,2,2,1,2,5,no
+3/27/2025 20:43,PT15,1,27,2,3,5,2,2,2,2,1,1,2,1,1,1,1,5,5,5,1,"1,2,3,5",3,3,3,3,3,,,,,,,,,,,,,,,,,
+3/29/2025 17:49,PT16,1,27,2,3,3,2,1,2,1,1,1,1,1,1,1,1,5,3,3,1,6,3,3,3,2,2,,,,,,,,,,,,,,,,,
+3/29/2025 18:02,PT17,1,65,2,3,5,1,2,2,2,1,1,1,1,1,1,1,5,5,5,1,3,3,3,3,3,2,,,,,,,,,,,,,,,,,
+3/30/2025 15:18,PT18,1,27,2,3,4,2,1,1,2,2,2,4,2,3,2,3,2,2,2,1,2,3,3,3,1,3,,,,,,,,,,,,,,,,,
+3/31/2025 10:39,PT19,1,41,2,3,4,2,1,1,1,1,2,5,1,2,2,2,5,5,5,3,6,2,3,2,1,2,,,,,,,,,,,,,,,,,
+3/31/2025 10:43,PT20,1,27,2,3,5,2,2,2,2,1,1,5,1,2,1,1,2,4,4,2,6,2,2,3,2,3,,,,,,,,,,,,,,,,,
+3/31/2025 15:15,PT21,1,33,2,3,5,2,2,2,2,2,2,1,1,2,1,1,2,2,2,1,6,3,3,3,3,3,,,,,,,,,,,,,,,,,
+4/1/2025 12:06,PT22,1,27,2,3,5,2,1,2,2,1,2,5,3,4,4,3,2,1,2,3,3,3,3,3,1,3,,,,,,,,,,,,,,,,,
+4/1/2025 12:39,PT23,1,27,2,1,5,2,1,2,1,3,2,5,2,4,4,1,4,2,3,1,2,3,3,3,2,3,1,Essential tremor,2,2,2,5,1,4,1,2,2,1,2,1,3,5,I use the track pad rather than a mouse.
+4/1/2025 13:24,PT24,1,30,2,2,5,2,1,1,2,1,1,5,1,1,2,1,5,2,5,4,6,3,3,3,2,3,2,N/A,2,1,1,2,1,2,3,2,2,2,2,1,1,5,No
+4/1/2025 14:09,PT26,1,23,2,3,5,2,1,2,1,1,1,5,1,1,1,1,6,6,6,1,"1,3",3,3,3,3,3,,,,,,,,,,,,,,,,,
+4/1/2025 15:41,PT28,1,54,2,3,4,2,2,1,2,2,2,1,1,2,2,1,5,4,5,3,6,3,3,2,1,1,,,,,,,,,,,,,,,,,
+4/1/2025 15:51,PT29,1,44,2,2,5,2,2,1,2,1,1,1,1,1,1,1,3,3,3,2,6,3,3,3,3,3,4,no,"1,3",1,1,1,1,2,3,2,2,2,2,1,1,5,no
+4/1/2025 16:03,PT30,1,33,2,2,5,2,2,2,2,1,1,1,1,1,1,1,3,3,3,5,6,2,2,2,2,2,1,no,"1,2,3",3,3,3,3,2,3,2,2,2,2,1,3,5,no
+4/1/2025 16:29,PT32,1,46,2,3,4,2,2,2,2,2,2,5,2,2,2,2,3,2,3,2,6,3,3,3,3,3,,,,,,,,,,,,,,,,,
+4/1/2025 16:37,PT33,1,47,2,3,4,2,2,1,2,2,2,5,1,2,1,1,4,4,4,1,"1,3",3,3,3,3,3,,,,,,,,,,,,,,,,,
+4/1/2025 16:47,PT34,1,22,2,3,4,2,1,2,1,1,1,1,1,1,1,1,5,5,5,1,"2,5",3,3,3,2,2,,,,,,,,,,,,,,,,,
+4/2/2025 10:04,PT35,1,41,2,3,5,2,2,1,2,1,1,1,1,2,1,1,4,4,4,1,2,3,3,3,2,2,,,,,,,,,,,,,,,,,
+4/2/2025 10:07,PT36,1,31,2,3,4,2,1,1,1,1,1,1,1,1,1,1,5,2,5,4,6,3,3,3,2,2,,,,,,,,,,,,,,,,,
+4/2/2025 11:55,PT25,1,27,2,3,4,2,2,2,2,2,1,1,1,2,1,1,4,3,4,2,3,3,3,3,3,3,,,,,,,,,,,,,,,,,
+4/2/2025 11:56,PT27,1,57,2,3,5,2,2,2,1,3,3,2,3,3,3,3,5,5,5,1,6,3,3,3,3,2,,,,,,,,,,,,,,,,,
+4/2/2025 12:00,PT31,1,37,2,3,4,2,2,1,1,1,1,1,1,1,1,1,5,5,4,1,6,3,3,3,1,2,,,,,,,,,,,,,,,,,
+4/2/2025 10:33,PT37,1,42,2,3,4,2,2,1,2,1,1,1,1,2,1,1,3,3,3,2,6,3,3,3,3,3,,,,,,,,,,,,,,,,,
+4/2/2025 12:47,PT38,1,60,2,3,5,2,2,1,2,1,1,4,1,1,1,1,5,5,5,1,6,3,3,3,2,3,,,,,,,,,,,,,,,,,
+4/3/2025 11:42,PT39,1,81,2,1,5,1,2,2,2,4,4,1,4,4,5,2,4,4,4,1,"1,2,3",2,3,3,1,1,6,Essential Tremor,"1,2,3",5,5,5,5,6,1,1,1,1,1,2,4,1,wireless keyboard and mouse
+4/3/2025 10:42,PT40,1,25,2,3,5,2,1,2,1,1,1,5,1,1,1,1,4,4,3,3,6,2,3,2,2,3,,,,,,,,,,,,,,,,,
+4/3/2025 13:24,PT41,1,28,2,2,5,2,2,2,2,1,1,5,1,1,1,1,3,2,3,1,"2,3",3,3,3,2,3,1,NA,2,1,1,1,1,2,2,2,2,2,2,1,1,5,NA
+4/7/2025 12:20,PT42,1,27,2,3,5,2,1,1,1,1,1,5,2,2,2,3,3,2,3,2,6,2,2,2,1,3,,,,,,,,,,,,,,,,,
+4/7/2025 12:25,SURVEY TEST,1,46,2,3,5,2,2,2,2,1,1,1,1,1,1,1,6,6,6,4,6,3,3,3,2,2,,,,,,,,,,,,,,,,,
+4/18/2025 8:46,PT44,1,73,2,1,1,1,1,1,1,5,5,1,5,5,4,5,5,5,5,4,6,2,3,3,1,2,4,essential tremors,2,4,5,5,1,5,2,2,2,1,1,2,5,1,no
+4/27/2025 14:57,PT45,1,29,2,3,2,2,2,1,1,1,1,2,1,1,1,1,4,4,4,1,6,3,3,3,3,3,,,,,,,,,,,,,,,,,
+4/27/2025 15:14,PT46,1,28,2,2,4,2,2,1,2,1,1,1,1,1,1,1,3,3,3,4,6,3,3,3,3,3,2,N/A,2,1,1,1,1,2,3,2,2,2,2,1,1,5,no
+4/27/2025 15:30,PT47,1,62,2,3,4,2,2,1,1,1,1,1,1,1,1,1,4,4,4,3,6,2,2,3,1,2,,,,,,,,,,,,,,,,,
+5/1/2025 13:53,PT48,1,24,2,3,3,2,2,1,1,1,2,5,1,1,1,1,2,4,4,3,6,3,3,2,1,3,,,,,,,,,,,,,,,,,
+5/1/2025 13:57,PT49,1,25,2,3,3,2,1,2,2,1,1,5,1,1,1,1,6,6,6,4,6,3,3,3,3,3,,,,,,,,,,,,,,,,,
